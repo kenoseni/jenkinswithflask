@@ -6,7 +6,7 @@ node('master') {
     printMessage('Running Pipeline')
 
     stage("Testing") {
-        printMessage('We are about to start testing the app')
+        printMessage('This is the stage for app testing')
     }
     
     stage("Deployment") {
